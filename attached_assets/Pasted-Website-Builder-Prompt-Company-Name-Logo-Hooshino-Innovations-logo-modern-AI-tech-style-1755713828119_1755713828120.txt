@@ -1,0 +1,54 @@
+Website Builder Prompt
+
+**Company Name & Logo**:
+Hooshino Innovations (logo: modern AI/tech style, with optional Persian accent هوشینو).
+
+**Tagline**:
+“New Intelligence for Ethical Decisions.”
+
+**Style & Theme**:
+
+* Background: Dark/black with subtle gradients or cinematic textures (best practice in AI tech sites: dark theme with accent colors).
+* Accent colors: Cyan + violet gradient for a high-tech look.
+* Clean sans-serif fonts (Montserrat, Poppins, or Inter).
+* Minimal animations (fade-ins, hover effects) for modern feel.
+
+**Homepage Sections (minimal but professional):**
+
+1. **Hero Section**:
+
+   * Big tagline (“New Intelligence for a Complex World”).
+   * Subtext: “We build ethical, explainable AI systems that turn complex data into trustworthy decisions.”
+   * Call-to-action button: “Contact Us” → mailto\:info\@hooshino.ca
+
+2. **About Us**:
+
+   * Short paragraph: “Hooshino Innovations is a Canadian AI company focused on decision intelligence, multilingual NLP, ontologies, and knowledge graphs. We design transparent, secure, and human-centered AI systems — bridging the gap between research and application.”
+
+3. **Focus Areas / Specialties Grid** (4-6 cards with icons):
+
+   * Ethical AI
+   * Multilingual NLP
+   * Knowledge Graphs & Ontologies
+   * Risk Intelligence
+   * Open-Source Due Diligence
+   * Real-Time Monitoring
+
+4. **Contact Section**:
+
+   * Email link: [info@hooshino.ca](mailto:info@hooshino.ca)
+   * Optional LinkedIn link.
+
+**Footer**:
+
+* Copyright © Hooshino Innovations Inc.
+* Minimal links (About, Contact, Privacy Policy).
+
+**Best Practices for Tech-Innovation Websites:**
+
+* Keep it **1-page scroll** (less friction for early visitors).
+* Use **dark theme with neon/cyan accents** → conveys cutting-edge innovation.
+* Prioritize **clarity over buzzwords**: avoid clutter, show credibility.
+* Optimize for **mobile first** (most visitors will check on phone).
+* Add **transparent PNG logo** so it adapts to dark/light backgrounds.
+

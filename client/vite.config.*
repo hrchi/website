@@ -1,0 +1,6 @@
+export default defineConfig({
+  build: { outDir: '../dist/public' }, // ← this is what you have now
+  // change to:
+  // build: { outDir: 'dist' },        // then you'd copy from client/dist
+  base: '/',
+})

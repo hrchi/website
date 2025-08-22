@@ -8,7 +8,7 @@ import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white font-inter antialiased">
+    <div className="bg-transparent text-white font-inter antialiased">
       <Navigation />
       <HeroSection />
       <AboutSection />

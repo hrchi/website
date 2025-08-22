@@ -65,7 +65,7 @@
   --chart-5: hsl(340, 75%, 55%);
 }
 
-@layer base {
+/*@layer base {
   * {
     @apply border-border;
   }
@@ -73,7 +73,38 @@
     @apply bg-background text-foreground font-inter antialiased;
     font-family: 'Inter', sans-serif;
   }
+}*/
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply text-foreground font-inter antialiased;
+
+    position: relative;
+    z-index: 0;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/bg-cp.png') center center / cover no-repeat;
+    z-index: -1;
+    opacity: 1;
+  }
 }
+
 
 @layer utilities {
   .gradient-text {
@@ -97,9 +128,9 @@
     background: transparent;
   }
   
-  body {
-    background: url('/background.png?v=2025') center center / cover fixed no-repeat, #000 !important;
-  }
+  /*body {
+    background: url('/background.png') center center / cover fixed no-repeat, #000 !important;
+  }*/
   
   body::after {
     content: '';
@@ -108,7 +139,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: none; /* rgba(0, 0, 0, 0.3); */
     pointer-events: none;
     z-index: 1;
   }
